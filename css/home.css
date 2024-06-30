@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 40px;
+    color: burlywood;
+}
+
+.test {
+    background-color: red;
+    width: 300px;
+    height: 200px;
+    color: white;
+    border: 20px solid green;
+    margin: 50px;
+    padding-top: 10px;
+}
+
+.test>p{
+    border: inherit;
+
+    background-color: inherit;
+    padding-top: inherit;
+}
+
+.nav {
+    background-color: burlywood;
+
+}
+
+.nav>ul {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 50px; */
+    list-style-type: none;
+    padding: 20px;
+    margin: 0;
+}
+
+li>a {
+    color: white;
+    text-decoration: none;
+}
+
+
+table,
+tr,
+td,
+th {
+    border: 2px solid tomato;
+    border-collapse: collapse;
+}
+
+#youtube-link {
+    text-decoration: none;
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    padding: 10px;
+}
