@@ -1,10 +1,15 @@
 body {
     margin: 0;
 }
+.hero-section{
+    background-image: url(/assets/horizon.jpg);
+    height: 100vh;
+   background-size: cover;
+}
 
 h1 {
     font-size: 40px;
-    color: burlywood;
+    color: white;
 }
 
 .test {
@@ -25,7 +30,7 @@ h1 {
 }
 
 .nav {
-    background-color: burlywood;
+    background-color: #000;
 
 }
 
